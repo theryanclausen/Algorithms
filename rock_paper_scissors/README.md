@@ -4,9 +4,7 @@ Write a function `rock_paper_scissors` to generate all of the possible plays tha
 
 For example, given n = 2, your function should output the following:
 
-```python
-[['rock', 'rock'], ['rock', 'paper'], ['rock', 'scissors'], ['paper', 'rock'], ['paper', 'paper'], ['paper', 'scissors'], ['scissors', 'rock'], ['scissors', 'paper'], ['scissors', 'scissors']]
-```
+```python[['rock', 'rock'], ['rock', 'paper'], ['rock', 'scissors'], ['paper', 'rock'], ['paper', 'paper'], ['paper', 'scissors'], ['scissors', 'rock'], ['scissors', 'paper'], ['scissors', 'scissors']]```
 
 Your output should be a list of lists containing strings. Each inner list should have length equal to the input n.
 

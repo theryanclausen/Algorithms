@@ -3,7 +3,14 @@
 import math
 
 def recipe_batches(recipe, ingredients):
-  pass 
+  ing_keys = list(recipe)
+  max_batch = {}
+  for i in ing_keys:
+    if not i in ingredients or recipe[i] > ingredients[i]:
+      return 0
+    max_batch[i] = ingredients[i] // recipe[i]
+
+  return min(dict.values(max_batch))
 
 
 if __name__ == '__main__':
